@@ -1,32 +1,76 @@
 {
-  "name": "eslint-config-vue",
-  "version": "0.0.1",
-  "description": "eslint config for projects written in vue + typescript",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "vue",
-    "ts"
-  ],
-  "author": "",
-  "license": "ISC",
-  "peerDependencies": {
-    "eslint": ">= 9",
-    "prettier": ">=3"
-  },
-  "dependencies": {
-    "eslint-plugin-vue": ">= 9",
-    "eslint-plugin-unused-imports": ">= 4",
-    "eslint-config-prettier": ">= 9",
-    "typescript": ">= 5",
-    "typescript-eslint": ">= 8",
-    "globals": ">= 15",
-    "@eslint/js": ">= 9"
-  }
+    "name": "@steffen-reanmo/eslint-config-vue",
+    "version": "1.0.0",
+    "description": "eslint config for projects written in vue + typescript",
+    "main": "index.js",
+    "type": "module",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "vue",
+        "ts"
+    ],
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+        "@eslint/js": ">= 9",
+        "@typescript-eslint/eslint-plugin": ">= 5",
+        "@typescript-eslint/parser": ">= 5",
+        "eslint": ">= 9",
+        "eslint-config-prettier": ">= 9",
+        "eslint-plugin-unused-imports": ">= 4",
+        "eslint-plugin-vue": ">= 9",
+        "globals": ">= 15",
+        "prettier": ">= 3",
+        "typescript": ">= 5"
+    },
+    "peerDependenciesMeta": {
+        "eslint": {
+            "optional": false
+        },
+        "prettier": {
+            "optional": false
+        },
+        "eslint-plugin-vue": {
+            "optional": false
+        },
+        "eslint-plugin-unused-imports": {
+            "optional": false
+        },
+        "eslint-config-prettier": {
+            "optional": false
+        },
+        "typescript": {
+            "optional": false
+        },
+        "@typescript-eslint/parser": {
+            "optional": false
+        },
+        "@typescript-eslint/eslint-plugin": {
+            "optional": false
+        },
+        "globals": {
+            "optional": false
+        },
+        "@eslint/js": {
+            "optional": false
+        },
+        "eslint-plugin-tailwindcss": {
+            "optional": false
+        }
+    },
+    "devDependencies": {
+        "@eslint/js": ">= 9",
+        "@typescript-eslint/eslint-plugin": ">= 5",
+        "@typescript-eslint/parser": ">= 5",
+        "eslint": ">= 9",
+        "eslint-config-prettier": ">= 9",
+        "eslint-plugin-tailwindcss": "^3.17.5",
+        "eslint-plugin-unused-imports": ">= 4",
+        "eslint-plugin-vue": ">= 9",
+        "globals": ">= 15",
+        "prettier": ">= 3",
+        "typescript": ">= 5"
+    }
 }
