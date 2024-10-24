@@ -1,5 +1,5 @@
 {
-    "name": "@steffen-reanmo/eslint-config-vue",
+    "name": "@steffen_reanmo/eslint-config-vue",
     "version": "1.0.0",
     "description": "eslint config for projects written in vue + typescript",
     "main": "index.js",

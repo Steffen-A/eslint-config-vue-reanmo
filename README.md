@@ -18,7 +18,7 @@ This package provides a shareable ESLint configuration for projects using **Vue*
 First, install the package and its peer dependencies:
 
 ```bash
-npm install @steffen-reanmo/eslint-config-vue eslint prettier typescript eslint-plugin-vue typescript-eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-tailwindcss eslint-plugin-unused-imports --save-dev
+npm install @steffen_reanmo/eslint-config-vue eslint prettier typescript eslint-plugin-vue typescript-eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-tailwindcss eslint-plugin-unused-imports --save-dev
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm install @steffen-reanmo/eslint-config-vue eslint prettier typescript eslint-
 Once you’ve installed the necessary dependencies, you can configure ESLint by creating an `eslint.config.js` file in your project’s root directory:
 
 ```javascript
-import eslintConfigReanmo from '@steffen-reanmo/eslint-config-vue';
+import eslintConfigReanmo from '@steffen_reanmo/eslint-config-vue';
 
 export default [
   ...eslintConfigReanmo, // Add the shared config here
