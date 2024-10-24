@@ -1,6 +1,6 @@
 {
     "name": "@steffen_reanmo/eslint-config-vue",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "eslint config for projects written in vue + typescript",
     "main": "index.js",
     "type": "module",
